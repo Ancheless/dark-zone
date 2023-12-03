@@ -12,7 +12,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   if (name.length >= 30) throw '[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙴𝚂 𝙳𝙴𝙼𝙰𝚂𝙸𝙰𝙳𝙾 𝙻𝙰𝚁𝙶𝙾';
   age = parseInt(age);
   if (age > 100) throw '*[❗] Kheee, como sigues vivo con esa edad? 👴🏻*';
-  if (age < 5) throw '*[❗] Kheee, un bebé que sabe usar WhatsApp? 😲*';
+  if (age < 17) throw '*[❗] Kheee, un bebé que sabe usar WhatsApp? 😲*';
   user.name = name.trim();
   user.age = age;
   user.regTime = + new Date;
