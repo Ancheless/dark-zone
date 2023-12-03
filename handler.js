@@ -1184,7 +1184,7 @@ const messageText = `
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
-—◉ *Contacto para apelaciones:* wa.me/5219992095479
+—◉ *Contacto para apelaciones:* wa.me/51925029406
 ╚═════════════════════╝
                `.trim();
               m.reply(messageText);
@@ -1500,8 +1500,8 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑;;;\nFN:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nORG:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nTITLE:\nitem1.TEL;waid=5219992095479:+521 999 209 5479\nitem1.X-ABLabel:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑', contacts: [{vcard}]}}, {quoted: callmsg});
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄;;;\nFN:❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄\nORG:❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄\nTITLE:\nitem1.TEL;waid=51925029406:+51 925 029 406\nitem1.X-ABLabel:❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '❄*𝙵𝚞𝚛𝚒𝚘𝚞𝚜 - 𝙱𝚘𝚝*❄', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1539,19 +1539,19 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*',
-    owner: '*[ ℹ️ ] Este comando solo puede ser utilizado por el propietario del bot.*',
-    mods: '*[ ℹ️ ] Este comando solo puede ser utilizado por moderadores y el propietario del bot.*',
-    premium: '*[ ℹ️ ] Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*',
-    group: '*[ ℹ️ ] Este comando solo puede ser utilizado en grupos.*',
-    private: '*[ ℹ️ ] Este comando solo puede ser utilizado en el chat privado del bot.*',
-    admin: '*[ ℹ️ ] Este comando solo puede ser usado por administradores del grupo.*',
-    botAdmin: '*[ ℹ️ ] Para utilizar este comando es necesario que el bot sea administrador del grupo.*',
-    unreg: '*[ ℹ️ ] Para utilizar este comando debes estar registrado.*\n\n*[ 💡 ] Utiliza el comando:* _#verificar nombre.edad_ *para registrarte.*',
-    restrict: '*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*',
+    rowner: '*[ ❄ ] Este comando solo puede ser utilizado por el propietario del bot.*',
+    owner: '*[ ❄ ] Este comando solo puede ser utilizado por el propietario del bot.*',
+    mods: '*[ ❄ ] Este comando solo puede ser utilizado por moderadores y el propietario del bot.*',
+    premium: '*[ ❄ ] Este comando solo puede ser utilizado por usurios premium y el propietario del bot.*',
+    group: '*[ ❄ ] Este comando solo puede ser utilizado en grupos.*',
+    private: '*[ ❄ ] Este comando solo puede ser utilizado en el chat privado del bot.*',
+    admin: '*[ ❄ ] Este comando solo puede ser usado por administradores del grupo.*',
+    botAdmin: '*[ ❄ ] Para utilizar este comando es necesario que el bot sea administrador del grupo.*',
+    unreg: '*[ ❄ ] Para utilizar este comando debes estar registrado.*\n\n*[ 💡 ] Utiliza el comando:* _#verificar nombre.edad_ *para registrarte.*',
+    restrict: '*[ ❄ ] Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/gonza_04_05/'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
