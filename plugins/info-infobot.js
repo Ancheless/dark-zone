@@ -25,11 +25,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Bruno Sobrino
- ▢ *WA:* +5219992095479
- ▢ *Bot 1:* +5219991402134
- ▢ *Bot 2:* +5219993404349
- ▢ *PayPal:* paypal.me/TheShadowBrokers133
+ ▢ *Prop.:* *𝙵𝚞𝚛𝚒𝚘𝚞𝚜*
+ ▢ *WA:* +51925029406
  
  ▢ *Usuarios regs.:* ${totalusrReg}
  ▢ *Usuarios totales:* ${totalusr}
@@ -56,7 +53,7 @@ conn.sendMessage(m.chat, {
     isForwarded: true,
     externalAdReply: {
       mediaType: 2,
-      title: "By Bruno Sobrino",
+      title: "By 𝙵𝚞𝚛𝚒𝚘𝚞𝚜 ",
       body: wm,
       thumbnail: imagen1,
       sourceUrl: "https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA",
