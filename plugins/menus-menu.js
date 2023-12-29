@@ -21,14 +21,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` ❄ *𝙵𝚄𝚁𝙸𝙾𝚄𝚂 - 𝙱𝙾𝚃* ❄
+    const str = ` ❄ *snowball* ❄
 
  🫎 *Hola,* ${taguser}
 
   ┎┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┒
  🤖 Creador : Furious
- 💌 Numero ; +51 925 029 406
- 💌 Adquirir : +51 925 029 409
+ 💌 Numero ; +51 994 429 268
+ 💌 Adquirir : +51 994 429 268
  📵 Ig : @https._angelz
   ┖┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┚
 
@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Experiencia:* ${exp}
  ▢ *Rango:* ${role}
  ▢ *Diamantes:* ${limit}
- ▢ *FuriousCoins:* ${money}
+ ▢ *SnowballCoins:* ${money}
  ▢ *Tokens:* ${joincount}
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
