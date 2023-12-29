@@ -26,7 +26,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = ` _*< INFO - ESTADO />*_
 
  ▢ *Prop.:* *𝙵𝚞𝚛𝚒𝚘𝚞𝚜*
- ▢ *WA:* +51925029406
+ ▢ *WA:* +51994429268
  
  ▢ *Usuarios regs.:* ${totalusrReg}
  ▢ *Usuarios totales:* ${totalusr}
