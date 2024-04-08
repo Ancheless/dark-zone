@@ -26,10 +26,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  🫎 *Hola,* ${taguser}
 
   ┎┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┒
- 🤖 Creador : Furious
- 💌 Numero ; +51 994 429 268
+ 🤖 Creador : ᴅᶻ botcito
+ 💌 Numero ; +543585179343
  💌 Adquirir : +51 994 429 268
- 📵 Ig : @https._angelz
+ 📵 Ig : @dark.zone__
   ┖┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┚
 
   ┎┈┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┈┒
@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Experiencia:* ${exp}
  ▢ *Rango:* ${role}
  ▢ *Diamantes:* ${limit}
- ▢ *SnowballCoins:* ${money}
+ ▢ *ᴅᶻCoins:* ${money}
  ▢ *Tokens:* ${joincount}
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
