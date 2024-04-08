@@ -6,7 +6,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 *➤ 𝙶𝚛𝚞𝚙𝚘𝚜 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝙱𝚘𝚝:*
 *1.-* https://chat.whatsapp.com/HfZKxT6JtE1AGbFVaLvig2 `.trim();
   const buttonMessage= {
-    'document': {url: `https://www.instagram.com/snow.ball_oficial/`},
+    'document': {url: `https://www.instagram.com/dark.zone__/`},
     'mimetype': `application/${document}`,
     'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
     'fileLength': 99999999999999,
@@ -15,7 +15,7 @@ const handler = async (m, {conn, usedPrefix}) => {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://www.instagram.com/snow.ball_oficial/',
+        'mediaUrl': 'https://www.instagram.com/dark.zone__/',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
